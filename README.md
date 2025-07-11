@@ -153,7 +153,7 @@ Caucaia - CE,383048,2024,2025-01-15
 ## ✅ Testes Automatizados
 
 ```bash
-pytest -v
+PYTHONPATH=$(pwd) pytest -v
 ```
 
 * 9 testes com cobertura total
