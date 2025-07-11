@@ -41,3 +41,5 @@ htmlcov/
 *.bak
 *.swp
 .DS_Store
+.tmp/
+.tmp_dagster_home_*
