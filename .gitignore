@@ -27,8 +27,9 @@ ENV/
 
 # Dados e resultados
 populacao_municipios_ceara.csv
-estatisticas_populacao_ceara.json
+ceara_stats_summary.json
 dashboard_populacao_ceara.png
+comparacao_municipios_ceara.png
 
 # Testes
 .pytest_cache/
