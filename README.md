@@ -167,23 +167,11 @@ pytest -v
 
 ### Schedules configurados:
 
-* `daily_population_update`: diariamente às 08:00
-* `weekly_population_update`: domingos às 09:00
+* `daily_population_update`: diariamente às 06:00
+* `weekly_population_update`: segundas-feiras às 06:00
 
 ### Sensores:
 
 * `csv_file_sensor`: dispara quando o CSV é alterado
 
 ---
-
-## 🔧 Erros comuns e soluções
-
-| Erro                           | Solução                              |              |
-| ------------------------------ | ------------------------------------ | ------------ |
-| `ImportError: get_sidra_table` | Use `requests` no lugar de `sidrapy` |              |
-| `porta 3000 ocupada`           | Rode \`lsof -ti:3000                 | xargs kill\` |
-| `Permissão para salvar CSV`    | Verifique permissões com `chmod`     |              |
-| `pip install` falha            | Use Python 3.8+ e crie novo venv     |              |
-
----
-
