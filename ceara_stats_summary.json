@@ -1,0 +1,77 @@
+{
+  "resumo_geral": {
+    "total_municipios": 184,
+    "populacao_total": 9233656,
+    "populacao_media": 50182.913043478264,
+    "populacao_mediana": 21522.5,
+    "desvio_padrao": 192652.39785800874
+  },
+  "extremos": {
+    "maior_municipio": {
+      "nome": "Fortaleza - CE",
+      "populacao": 2574412
+    },
+    "menor_municipio": {
+      "nome": "Granjeiro - CE",
+      "populacao": 4960
+    }
+  },
+  "top_10_maiores": [
+    {
+      "municipio": "Fortaleza - CE",
+      "populacao": 2574412,
+      "percentual_estado": 27.8807440952966
+    },
+    {
+      "municipio": "Caucaia - CE",
+      "populacao": 375730,
+      "percentual_estado": 4.0691357789374
+    },
+    {
+      "municipio": "Juazeiro do Norte - CE",
+      "populacao": 303004,
+      "percentual_estado": 3.281517093554276
+    },
+    {
+      "municipio": "Maracanaú - CE",
+      "populacao": 249684,
+      "percentual_estado": 2.704064348942607
+    },
+    {
+      "municipio": "Sobral - CE",
+      "populacao": 215286,
+      "percentual_estado": 2.331535851021524
+    },
+    {
+      "municipio": "Crato - CE",
+      "populacao": 138232,
+      "percentual_estado": 1.4970451574111057
+    },
+    {
+      "municipio": "Itapipoca - CE",
+      "populacao": 137892,
+      "percentual_estado": 1.493362975618758
+    },
+    {
+      "municipio": "Maranguape - CE",
+      "populacao": 108937,
+      "percentual_estado": 1.1797818762145786
+    },
+    {
+      "municipio": "Iguatu - CE",
+      "populacao": 102251,
+      "percentual_estado": 1.1073728542627104
+    },
+    {
+      "municipio": "Quixadá - CE",
+      "populacao": 88483,
+      "percentual_estado": 0.9582661515655337
+    }
+  ],
+  "distribuicao": {
+    "q1": 14139.5,
+    "q2": 21522.5,
+    "q3": 41799.5,
+    "iqr": 27660.0
+  }
+}

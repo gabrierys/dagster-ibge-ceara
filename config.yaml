@@ -1,0 +1,53 @@
+# Configurações do Pipeline do Ceará
+# Arquivo: config.yaml
+
+# Configurações da API SIDRA
+api:
+  base_url: "https://apisidra.ibge.gov.br/values"
+  timeout: 30
+  retry_attempts: 3
+  retry_delay: 5
+
+# Configurações do Ceará
+ceara:
+  codigo_ibge: "23"
+  nome: "Ceará"
+  tabela_populacao: "6579"
+  
+# Configurações de saída
+output:
+  csv_filename: "populacao_municipios_ceara.csv"
+  encoding: "utf-8"
+  separator: ","
+  
+# Configurações de qualidade de dados
+data_quality:
+  min_municipios_esperados: 180
+  max_municipios_esperados: 190
+  populacao_minima_municipio: 1000
+  populacao_maxima_municipio: 3000000
+  
+# Configurações de agendamento
+scheduling:
+  daily_hour: 6
+  daily_minute: 0
+  weekly_day: 1  # Segunda-feira
+  weekly_hour: 6
+  weekly_minute: 0
+  
+# Configurações de logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+# Configurações de notificações (futuro)
+notifications:
+  enabled: false
+  email:
+    smtp_server: ""
+    smtp_port: 587
+    sender: ""
+    recipients: []
+  slack:
+    webhook_url: ""
+    channel: "#data-updates"
